@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.create, .project-page {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+.create label, .project-page label {
+  text-align: left;
+  display: block;
+}
+.create input, .create textarea, .project-page input, .project-page textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button, .project-page button {
+  background: #212dce;
+  color: #fff;
+  border: 0;
+  padding: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  
+}
+
+.create .delete {
+ background: red;
+ float: right;
+ padding: 6px;
+ border-radius: 6px;
+}
+.project-page .delete {
+  background: red;
+}
+.update {
+  margin-left: 20px;
+}
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+table, th, td {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.project-page .project-info {
+  margin-top: 10px;
+}
+.project-page .list-times {
+  margin-top: 20px;
+}
+.project-page .form {
+  margin-top: 15px;
+}
