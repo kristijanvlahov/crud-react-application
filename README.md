@@ -1,4 +1,4 @@
-React test application built with React, GraphQL and Apollo Client.
+CRUD application for management of projects and their times built with React, GraphQL and Apollo Client.
 
 An example of the app's usage can be found in the react-test.gif file.
 
